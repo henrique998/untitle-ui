@@ -1,7 +1,6 @@
 import { Analytics } from "./_components/analytics";
 import { Companies } from "./_components/companies";
 import { Features } from "./_components/features";
-import { Header } from "./_components/header";
 import { Hero } from "./_components/hero";
 import { Launch } from "./_components/launch";
 import { Questions } from "./_components/questions";
