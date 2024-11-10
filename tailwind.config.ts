@@ -9,9 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'gray-100': '#F2F4F7',
+        'gray-200': '#E4E7EC',
+        'gray-300': '#D0D5DD',
+        'gray-600': '#475467',
+        'gray-700': '#344054', 
+        'gray-900': '#101828',
+        'brand-50': '#F9F5FF',
+        'brand-100': '#F4EBFF',
+        'brand-600': '#7F56D9',
+        'brand-700': '#6941C6',
+        'success-50': '#ECFDF3',
+        'success-700': '#027A48',
       },
+      maxWidth: {
+        'container': '76rem'
+      }
     },
   },
   plugins: [],
